@@ -1,0 +1,248 @@
+; <!-- $Id -->
+; Joomla! Project
+; copyright (C) 2013 JoomlaSpanish.org  Todos los derechos reservados. 
+; Licencia GNU (Licencia Pública General) versión 2 or posterior; ver LICENSE.txt, ver LICENSE.php 
+; Nota : Todos los archivos ini deben guardarse con la codificación UTF-8 - No BOM 
+; Traducido por www.joomlaspanish.org
+
+; Strings to javascript
+
+; Module strings
+COM_CTC="Componente para páginas de CloudTime"
+tablero_de_control=Au tableau de bord
+
+COM_CTC_EMPLOYEE="Employé" 
+COM_CTC_EMPLOYEE_2="Employés"
+COM_CTC_SUSP_EMPL_Q="vous ètes sur de vouloir suspendre employés Selectionnés?"
+COM_CTC_SUSPEND_EMPL="Suspendre Selectionnés"
+COM_CTC_EDIT_EMPL="Editer Selectionnés"
+COM_CTC_SELECTED="Selectionnés"
+COM_CTC_DELETE_ATT_Q="Vous  voulez effacer la numérotation?"
+COM_CTC_END_CONTRACT="Vous voulez terminer le  contrat ?"
+COM_CTC_HOUR_DETAIL="Détail heures"
+COM_CTC_CREATE_ATT="Créer numérotation"
+COM_CTC_IN_ON_T="Entré à Temps"
+COM_CTC_IN_EARLY="Entré de bonne heure"
+COM_CTC_IN_LATE="Entré en retard"
+COM_CTC_OUT_ON_T="Sortir à Temps"
+COM_CTC_OUT_EARLY="Sortir plus tot"
+COM_CTC_OUT_LATE="Sortir plus tard"
+COM_CTC_ATT_BETWEEN="Pause"
+COM_CTC_ATT_BETWEEN_DESC="Numérotaion intermédiare dans un turn."
+COM_CTC_ATT_MANUAL_DESC="Numérotation manuelle"
+COM_CTC_ATT_MANUAL="Manuelle"
+COM_CTC_ATT_PRN_DESC="Numérotation motivée"
+COM_CTC_ATT_PRN="Motivée"
+COM_CTC_ATT_PROCESSED_DESC="Numérotation "
+COM_CTC_ATT_PROCESSED="Procesada"
+COM_CTC_ATT_NOTPROCESSED_DESC="Marcación NO Procesada"
+COM_CTC_ATTS_NOTPROCESSED="Marcaciones No Procesadas"
+COM_CTC_ATT_NOTPROCESSED="NO Procesada"
+COM_CTC_ATT_AUTO_DESC="Marcación realizada Automáticamente"
+COM_CTC_ATT_AUTO="Automática"
+COM_CTC_ATT_CALENDAR="Calendario de Marcaciones"
+COM_CTC_GOBACK_EMP="Volver a Empleados"
+COM_CTC_EDIT_EMP="Editar Empleado"
+COM_CTC_CREATE_HR="Crear Jornada"
+COM_CTC_CREATE_CONTRACT="Crear Nuevo Contrato"
+
+;PersonView
+COM_CTC_LASTNAME="Apellido"
+COM_CTC_PARENT_ENTERPRISE="Empresa padre"
+COM_CTC_RULE_EXECUTE="Reglas a Ejecutar"
+COM_CTC_EXPIRATION_MSG="Mensaje Expiración"
+COM_CTC_EXPIRATION_MSG_DESC="Mensaje que se mostrará al cliente cuando dias antes de expiración de Contrato"
+COM_CTC_DAYS_MSG="Días Para Mensaje"
+COM_CTC_DAYS_MSG_DESC="Días para mostrar el mensaje antes de expiración."
+COM_CTC_PRIVILEDGE="Tipo"
+COM_CTC_GENRE="Sexo"
+COM_CTC_AREA_DESC="Area a la que pertenece el empleado"
+COM_CTC_NUMFP="Huellas"
+COM_CTC_NUMFP_DESC="Número de Huellas Enroladas."
+COM_CTC_CONTRACT_START_DATE="Fecha de inicio Contrato"
+COM_CTC_CARD="Número Tarjeta"
+COM_CTC_CARD_DESC="Muestra el código de barras de la tarjeta suministrada a este empleado."
+COM_CTC_DEVICE_GROUP="Grupo En Dispositivo"
+COM_CTC_TIMEZONE="Zona Horaria"
+
+COM_CTC_CONTRACT_TYPE_DESC="Tipo de Contrato al que pertenece el empleado."
+COM_CTC_DEVICES_ALLOW="Unidades Biométricas Permitidas"
+COM_CTC_DEVICES_ALLOW_DESC="Unidades biométricas en las que el usuario tiene huella activa."
+COM_CTC_LAST_UPDATE="Fecha de Ultimo Cambio"
+COM_CTC_SALARY_MONTH="Salario al Mes"
+COM_CTC_SALARY_MONTH_DESC="Pago de Salario Mensual al Empleado."
+
+COM_CTC_SALARY_HOUR="Costo de Hora"
+COM_CTC_SALARY_HOUR_DESC="Costo de Hora de Trabajo."
+
+COM_CTC_EMP_IDENTIFICATION_DESC="Identification de la personne dans l;emtreprises."
+COM_CTC_DEVICE_USERID="Identification dans le dispositif"
+COM_CTC_DEVICE_USERID_DESC="Identification de la personne dans le dispositif.  Peut ètre égal á la;identification de l;entreprises si s;est requis."
+COM_CTC_CELLPHONE="Cellulaire"
+COM_CTC_EMP_TAGS_DESC="Ajouter des Ëtiquettes pour  classification du Employé."
+
+COM_CTC_HOUR_REPORT_VIEW="Voir les rapport d;heures"
+COM_CTC_FP_DELETE="Efaccer empreintes"
+COM_CTC_FP_DELETE_Q="voulez vous effacer les empreintes du employé selectionné ?"
+COM_CTC_CARD_DELETE="Effacer carte"
+COM_CTC_CARD_DELETE_Q="Voulez vous effacer la carte du employé selectionné ?"
+
+
+
+COM_CTC_POSITION="Poste"
+COM_CTC_POSITION_2="Postes"
+
+COM_CTC_COST_CENTER="Centre de frais"
+COM_CTC_COST_CENTER_2="Centres de frais"
+
+COM_CTC_CONTRACT_DETAIL="Detail de Contrat"
+COM_CTC_CONTRACT_DETAIL_2="Detail des Contrats"
+
+
+;PRview
+COM_CTC_HR_NOTPROCESSED="Total de laps de travail  non procesados"
+
+
+
+COM_CTC_CREATE_PRN="Créer Motivation"
+COM_CTC_EDIT_PRN="Editer Motivation"
+COM_CTC_HCPRN_CALENDAR="Calendrier heures Concept et Motivations"
+
+COM_CTC_WI_NOT_OUT_DESC="Laps de travail sans sortir"
+COM_CTC_WI_NOT_OUT="Sans sortie"
+
+COM_CTC_WI_MANUAL_DESC="Laps de Travail contienne une entré faite manuelment"
+COM_CTC_WI_AUTO_DESC="Laps de Travail contienne une entré faite automatiquemente"
+
+
+COM_CTC_CATEGORY="Catégorie"
+COM_CTC_CATEGORY_2="Catégories"
+
+COM_CTC_TAG="Étiquette"
+COM_CTC_TAG_2="Étiquettes"
+
+
+COM_CTC_SUBCONCEPT="SubConcept"
+COM_CTC_SUBCONCEPT_2="SubConcepts"
+
+
+
+COM_CTC_WS_CATEGORY="Catégorie Intervalle"
+COM_CTC_WS_CATEGORY_2="Catégories de Intervalles"
+
+
+COM_CTC_CALENDAR_TIME="Intervalle"
+COM_CTC_CALENDAR_TIME_2="Intervalles"
+
+
+COM_CTC_HOUR_REPORT="Heures de Travail"
+COM_CTC_HOUR_REPORT_2="Heures de Travail"
+
+
+COM_CTC_SCHEDULE="Turn"
+COM_CTC_SCHEDULE_2="Turns"
+
+COM_CTC_PERIOD="Période"
+COM_CTC_PERIOD_2="Périodes"
+COM_CTC_CREATE_NEW_PERIOD="Créer nouveau période"
+
+COM_CTC_CONF="Configuration"
+COM_CTC_CONF_2="Configurations"
+
+COM_CTC_ENTERPRISE="Entreprise"
+COM_CTC_ENTERPRISE_2="Entreprises"
+
+COM_CTC_RULE="Regle"
+COM_CTC_RULE_2="Regles"
+
+COM_CTC_ROL="Rol"
+COM_CTC_ROL_2="Rols"
+
+COM_CTC_USER="Utilisateur"
+COM_CTC_USER_2="Utilisateurs"
+
+COM_CTC_AREA="Area"
+COM_CTC_AREA_2="Areas"
+
+COM_CTC_BRANCH_OFFICE="Branche"
+COM_CTC_BRANCH_OFFICE_2="Branches"
+
+COM_CTC_CONCEPT="Concept"
+COM_CTC_CONCEPT_2="Concepts"
+
+
+COM_CTC_CONTRACT_TYPE="Type du Contrat"
+COM_CTC_CONTRACT_TYPE_2="Types des Contrats"
+
+COM_CTC_CONTRACT_DETAIL="Details du Contrat"
+COM_CTC_CONTRACT_DETAIL_2="Details des Contrats"
+
+
+COM_CTC_DEVICE="Unité Biométrique"
+COM_CTC_DEVICE_2="Unités Biométriques"
+
+COM_CTC_HOLIDAY="Ferié"
+COM_CTC_HOLIDAY_2="Feriés"
+
+COM_CTC_NOTIFICATION="Notification"
+COM_CTC_NOTIFICATION_2="Notifications"
+
+COM_CTC_PRN="Motivation"
+COM_CTC_PRN_2="Motivations"
+
+COM_CTC_PRN_TYPE="Type de motivation"
+COM_CTC_PRN_TYPE_2="Types de motivations"
+
+COM_CTC_AUTO_PERIOD="Période Automatique"
+COM_CTC_AUTO_PERIOD_2="Périodes Automatiques"
+
+COM_CTC_TASK="Taches"
+COM_CTC_TASK_2="Taches"
+
+COM_CTC_VARIABLE_VALUE="Valeur Variables"
+COM_CTC_VARIABLE_VALUE_2="Valeurs variables"
+
+
+COM_CTC_CARD="Carte"
+
+;AUDIT
+
+COM_CTC_AU_SUBC_CREATE="Créer SubConcepts par défaut"
+
+
+; GENERAL
+COM_CTC_DISCARD_SUSPENDED="Jeter Suspendus"
+COM_CTC_DELETE_Q="vous voulez effacer le registre?"
+COM_CTC_CONFIRM="Confirmer la operation"
+
+COM_CTC_NAME="Nom"
+COM_CTC_DESCRIPTION="Descriptión"
+COM_CTC_STATUS="Ëtat"
+COM_CTC_IDENFIFICATION="Identification"
+COM_CTC_ADDRESS="Adresse"
+COM_CTC_ADDRESS_DESC="Adresse de Residence."
+COM_CTC_PASSWORD="Mot de passe"
+COM_CTC_PHONE="Telephone"
+COM_CTC_EMAIL="adresse éléctronique"
+COM_CTC_ACTIVATION_DATE="Date de activatión"
+COM_CTC_EXPIRATION_DATE="Date d;expiration"
+COM_CTC_SUBCONCEPTS_ASSO="SubConcepts associés"
+COM_CTC_VIEWLEVELS="Permis"
+COM_CTC_BELONG_TO="Appartient á"
+COM_CTC_START_DATE="Date de début"
+COM_CTC_END_DATE="Date d; achèvement"
+COM_CTC_EXPECTED_END_DATE="Date prévue d; achèvement"
+COM_CTC_CREATION_DATE="Date de Creation"
+COM_CTC_NOT="NON"
+COM_CTC_YES="OUI"
+COM_CTC_SAVE="Garder"
+COM_CTC_CANCEL="Annuler"
+COM_CTC_UPDATE="Actualiser"
+COM_CTC_FILTER="Filtrer"
+COM_CTC_OK="Acepter"
+COM_CTC_DELETE="Effacer"
+COM_CTC_CREATE_NEW="Créer Nouveau Registre"
+COM_CTC_CREATE_MOD="Créer %s"
+COM_CTC_INF_MOD="Information du %s"
+COM_CTC_LIST_MOD="Liste de %s" 
+COM_CTC_EDIT_MOD="Editer %s"
