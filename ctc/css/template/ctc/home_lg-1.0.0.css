@@ -1,0 +1,20 @@
+#yt_menuposition {
+    display: none;
+}
+
+#yt_menuwrap {
+    height: 6px !important;
+}
+
+#yt_footer .yt-main #yt_copyrightposition {
+    margin-left: 150px;
+}
+
+body a {
+    color: #8B933B !important;
+}
+
+#content_left {
+    margin-top: -60px;
+    margin-bottom: 30px;
+}

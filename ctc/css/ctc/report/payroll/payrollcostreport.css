@@ -1,0 +1,19 @@
+.header_comp {
+	display: inline-block;
+	float: right;
+}
+
+.header_comp .soranButton {
+	margin-left: 5px;
+	margin-top: -3px;	
+}
+
+#PayRollCostReport_filter_form label {
+    display: inline;
+}
+
+#PayRollCostReport_filter_form .select2-container.filter_input {
+    float: right;
+    margin-bottom: 0px !important;
+    padding: 0px 0px 0px 0px;
+}

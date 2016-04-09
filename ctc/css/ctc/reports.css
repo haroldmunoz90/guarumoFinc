@@ -1,0 +1,21 @@
+input {
+    width: 140px !important;
+}
+
+select {
+    width: 150px !important;
+}
+
+.pie_chart_big_header, .pie_chart_header, .pie_chart_small_header {
+    color: #ff9900 !important;
+}
+
+.det_table, .det_table td, .det_table th {
+    border: 1px #ddd solid;
+    padding: 5px;
+}
+
+#Audit_report_table_auth_wrapper {
+    width: 1140px;
+	font-size: 11px;
+}

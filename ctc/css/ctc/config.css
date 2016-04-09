@@ -1,0 +1,12 @@
+#Config_form .layout_col {
+    padding-left: 10px;
+}
+
+.Config_input {
+    width: 220px !important;
+}
+
+#Config_table_wrapper {
+    width: 1140px;
+	font-size: 11px;
+}

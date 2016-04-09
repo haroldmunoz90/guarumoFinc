@@ -1,0 +1,37 @@
+.buttonCont {
+    float: right;
+    display: inline-block;
+}
+
+.buttonCont .soranButton {
+    text-align: left;
+    font-size: medium;
+}
+
+.encuesta_name {
+    font-size: xx-large;
+    color: #0D9CD8;
+}
+
+.header_contact {
+    width: 136px !important;
+}
+
+.header_input {
+    width: 122px !important;
+}
+
+.header_contact_table {
+    font-size: small;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.header_contact_table td {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+    

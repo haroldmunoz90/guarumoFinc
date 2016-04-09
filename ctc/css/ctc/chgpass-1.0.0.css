@@ -1,0 +1,18 @@
+#pswd_info {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+fieldset form {
+    margin: 5px;
+    max-width: 200px;
+}
+
+.invalid {
+    color: #dd0000;
+}
+
+.valid {
+    color: #009900;
+}

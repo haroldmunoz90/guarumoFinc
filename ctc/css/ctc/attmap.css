@@ -1,0 +1,17 @@
+#HoursReport_accordion .map_chart_big_centered  {
+        width: 100%;
+}
+
+#HoursReport_accordion .map_chart_big_header  {
+        width: 100%;
+}
+
+#HoursReport_accordion .map_chart_big  {
+        width: 100%;
+}
+#AttMap_report_chart_attmap {
+    border: solid;
+    border-width: 7px;
+    border-radius: 25px;
+    border-color: #99bbcc;
+}

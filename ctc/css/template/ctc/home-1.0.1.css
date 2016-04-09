@@ -1,0 +1,64 @@
+#home_container {
+    margin-top: 25px;
+}
+
+#yt_component {
+    display: inline;
+    min-height: 0px !important;
+    border: none !important;
+}
+
+#content #yt_component, #yt_footer, #yt_menuwrap {
+    border: none !important;
+    -webkit-box-sizing: inherit !important;
+    -moz-box-sizing: inherit !important;
+    box-sizing: inherit !important;
+    -webkit-box-shadow: 0 0 0px #fff !important;
+    -moz-box-shadow: 0 0 0px #fff !important;
+    box-shadow: 0 0 0px #fff !important;
+}
+
+.logo {
+    display: none;
+}
+
+#form-login-remember, .userdata a {
+    display: none !important;
+}
+.form-inline .icon-add {
+    background: #ff6600 !important;
+}
+
+#content_main {
+    width: 250px;
+    display: inline;
+    height: 250px;
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+
+#yt_header {
+    height: 100px !important;
+}
+
+#yt-mobilemenu {
+    display: none !important;
+}
+
+.yt-main {
+    background-image: url("../images/banjer/fondoSplash1.png") !important;
+}
+
+#content_left {
+    display: inline;
+    float: left;
+    width: 100%;
+    margin-left: 158px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+#left {
+    width: 250px;
+}

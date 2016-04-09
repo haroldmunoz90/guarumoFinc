@@ -1,0 +1,98 @@
+#AttendanceCreate_form {
+  position: absolute;
+  top: 362px;
+  left: 345px;    
+}
+
+#AttendanceCreate_form .select2-container {
+	width: 200px !important; 
+}
+
+#s2id_AttendanceCreate_person_id_ALIAS {
+    position: absolute;
+    left: 187px;
+}
+#AttendanceCreate_att_time_label{
+    position: absolute;
+    left: 118px;
+    top: -176px;
+    font-weight: bold;
+    color: #fefefe;   
+}
+#AttendanceCreate_att_date_label {
+    position: absolute;
+    left: 24px;
+    top: -186px;
+    font-weight: bold;
+    color: #fefefe;    
+}
+
+#AttendanceCreate_att_date {
+    position: absolute;
+    left: -49px;
+    top: -204px;
+    width: 128px;
+    height: 15px;
+    background-image:linear-gradient(#00b1e9,#00b1e9 25%,#009cd9 73%);
+    color: #fefefe;
+    font-size:18px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#AttendanceCreate_seconds_label{
+    position: absolute;
+    left: -89px;//67px;
+    top: -98px;
+    width: 29px;
+    height: 29px;
+    font-family: monospace;
+    font-size: 24px;
+    background-image:none;
+    color: #fefefe;
+    font-weight: bold;
+    background-color : #0081c7;
+    border : none; 
+}
+
+#AttendanceCreate_att_time{
+    position: absolute;
+    left: -142px;
+    top: -137px;
+    width: 73px;
+    height: 36px;
+    font-family: monospace;
+    font-size: 24px;
+    background-image:none;
+    color: #fefefe;
+    font-weight: bold;
+    background-color : #0081c7;
+    border : none; 
+}
+
+#AttendanceCreate_person_id_ALIAS_label{
+    position: absolute;
+    left: 100px;//276px;
+    font-weight: bold;
+    color: #fefefe;
+}
+
+#AttendanceCreate_workcode_label{
+    position: absolute;
+    left: 63px;//237px;
+    top: 42px;
+    font-weight: bold;
+    color: #fefefe;
+}
+
+#s2id_AttendanceCreate_workcode{
+    position: absolute;
+    left: 188px;
+    top: 42px;    
+}
+#scanner_image_button{
+    position: absolute;
+    left: 589px;
+    top: 199px;
+}
+

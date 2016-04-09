@@ -1,0 +1,19 @@
+#ProcessFile_actions_cont_container button, 
+#ProcessFile_edit_cont_container button {
+    width: 90%;
+    text-align: left;
+}
+
+.cssform select.file_list.right_file_list {
+    width: 45% !important;
+}
+
+.ProcessFile_csvfiles_class {
+	width: 470px;
+}
+
+
+#ProcessFile_table_wrapper {
+    width: 1140px;
+	font-size: 11px;
+}

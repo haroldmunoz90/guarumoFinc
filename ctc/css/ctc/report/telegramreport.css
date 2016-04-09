@@ -1,0 +1,83 @@
+
+#yt_menuwrap {
+    display: none;
+    
+    
+}
+
+.morris-hover {
+  margin : 0 0 0 165px;
+  position: initial !important;
+  z-index: 9;
+  display: inline-block;
+  vertical-align: top !important;
+}
+.morris-hover.morris-default-style .morris-hover-point {
+    margin: 0 !important;
+    line-height: 15px;
+    font-size: 16px !important;
+}
+
+.morris-hover.morris-default-style .morris-hover-row-label {
+    font-size: 16px !important;
+}
+.area_chart_centered, .bar_chart_centered, .line_chart_centered, .map_chart_centered, .area_chart_header, 
+.line_chart_header, .bar_chart_header, .map_chart_header, .bar_chart, .line_chart, .area_chart {
+    padding-top: 0 !important;
+    width: auto !important;
+}
+
+#system-message{
+    display: none;
+     visibility:hidden;
+}
+
+#yt_footer{
+    display: none;
+    visibility:hidden;
+}
+
+ #yt_header{
+    display: none;
+    
+
+}
+
+#bottom7{
+    display: none;
+}
+
+#yt_spotlight3{
+    display: none;
+}
+
+#yt-main{
+    display: none;
+}
+
+#content{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    
+}
+
+.table-1-1{
+    width : 930px !important;
+}
+
+.fg-button{
+    display: none;
+}
+
+.dataTables_config{
+    display: none;
+}
+
+.dataTables_length{
+    display: none;
+}
+
+.ui-corner-tl{
+    height: 18px;
+}

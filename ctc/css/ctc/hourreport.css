@@ -1,0 +1,10 @@
+.colorcalendar {
+	width:100%;
+	border: 1px;
+	font-size:8px;	
+	display:block;
+}
+
+.colorcalendar td {
+  display: table-cell;
+}
