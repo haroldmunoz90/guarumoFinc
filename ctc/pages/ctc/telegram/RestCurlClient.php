@@ -230,7 +230,8 @@ class RestCurlClient {
     public function apiSendMsg(TelegramUpdate $msg, $action, $keyboardMarkup = null, $keyboardHide = null) {
         
         if(!$msg->chat_id){
-            if($action->keybd){
+            
+            if(false){
                 $action->phone_response .= ". Diga una de las siguientes opciones. ";
                 print_r($action->phone_response);
                 foreach($action->keybd as $answer){
@@ -257,11 +258,15 @@ class RestCurlClient {
         $text = $action->response;
         
         
-        
-        $this->tgramApiSendMsg($msg->chat_id, $text,array(
+        if ($action->keybd != ""){
+            $this->tgramApiSendMsg($msg->chat_id, $text,array(
                                         'keyboard' =>  $action->keybd,
                                         'resize_keyboard' => true,
                                         'one_time_keyboard'=> true));
+            
+        }else{
+             $this->tgramApiSendMsg($msg->chat_id, $text);
+        }
         /*
         $params = array(
                 "chat_id" => $chatId,

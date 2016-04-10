@@ -3,10 +3,12 @@
 
 include_once "RestCurlClient.php";
 include_once "TelegramUpdate.php";
+include_once "TgramAuth.php";
 include_once "TgramConfig.php";
+include_once "TgramUtils.php";
 include_once "telegram_msg.php";
 include_once "TgramFincluimosController.php";
-
+include_once "hospital_msg.php";
 
 error_log("Entro al webhook de Fincluimos -> " . TgramConfig::enviroment);
 $jmsg = file_get_contents('php://input');
@@ -19,6 +21,10 @@ if(!$msg->chat_id){
     $msg->cell_phone = $_POST["cell_phone"];
     $msg->stext = trim( $_POST["text"]);
     
+    if (!$msg->stext || $msg->stext == "" || $msg->stext == null){
+        print_r("Lo siento, no escuche lo que me querias decir. Puedes repetir por favor?");
+        return;
+    }
     error_log("el texto es $msg->stext");
 }
 
